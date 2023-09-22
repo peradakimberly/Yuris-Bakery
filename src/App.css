@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+.font-face {
+  font-family: "SteelCityComic";
+}
+body {
+  background-image: url(./images/gingham3.png);
+  background-repeat: no-repeat;
+}
+
+
+header {
+  width: 100vw;
+  height: 60px;
+  background-color: #956d4e; 
+  
+}
+nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.logo {
+  font-size: 25px;
+}
+.navigation {
+  font-size: 23px;
+}
+.navigation a {
+  margin-left: 20px;
+}
+.homebanner {
+  display: flex;
+  justify-content: center;
+}
+.bannerimage {
+  width: 90%;
+  margin: 50px;
+  background-size: cover;
+  box-shadow: 5px 5px 5px #997356;
+}
+
+
+.menu-layout {
+  margin: 50px;
+}
+.menu-navigation {
+  display: flex;
+  margin-bottom: 40px;
+  align-items: center;
+}
+.menu-about-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 60px;
+  width: 120px;
+  height: 50px;
+  background-color: white;
+  color:#956d4e;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #997356;
+}
+.menu-navigation a {
+  color: #956d4e;
+  width: 110px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-layout a:hover {
+  background-color: #956d4e;
+  color: white;
+  box-shadow: 5px 5px 5px lightgray;
+}
+.menu-layout a:focus {
+  background-color: #956d4e;
+  color: white;
+  box-shadow: 5px 5px 5px lightgray;
+}
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: center;
+}
+
+
+.product {
+  background-color:white;
+  width: 370px;
+  height: 470px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #997356;
+}
+.productimage {
+  width: 330px;
+  height: 250px;
+  background-size: cover;
+  margin: 20px;
+  border-radius: 10px;
+}
+.product-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.product-name {
+  color: #956d4e;
+}
+.price-details {
+  color: #956d4e;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.product-description {
+  color: white;
+  background-color: #956d4e;
+  font-size: 20px;
+  width: 150px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.product-description:hover {
+  border-radius: 10px;
+}
+
+
+.product-panel {
+  color: #956d4e;
+  font-size: 22px;
+  background-color: white;
+  margin: 20px;
+  padding: 40px;
+  box-shadow: 5px 5px 5px #997356;
+  border-radius: 10px;
+}
+.product-show {
+  display: flex;
+  align-items: center;
+}
+.product-show-description {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+
+.about {
+  color: #956d4e;
+  font-size: 22px;
+  background-color: white;
+  margin: 20px;
+  padding: 40px;
+  box-shadow: 5px 5px 5px #997356;
+  border-radius: 10px;
+}
+.yuriyum {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+
+.contact {
+  color: #956d4e;
+  font-size: 22px;
+  background-color: white;
+  margin: 20px;
+  padding: 40px 120px 40px 120px;
+  box-shadow: 5px 5px 5px #997356;
+  border-radius: 10px;
+}
+.contact-form {
+  display: flex;
+}
+.left {
+  width: 35%;
+}
+.right {
+  width: 50%;
+}
+label {
+  color: #956d4e;
+  font-size: 22px; 
+}
+input {
+  height: 25px;
+  width: 250px;
+  margin-bottom: 10px;
+}
+textarea {
+  width: 400px;
+  height: 150px;
+}
+.submit {
+  display: flex;
+  align-items: center;
+  width: 15%;
+  justify-content: right;
+}
+.submitbtn {
+  background-color: #956d4e;
+  color: white;
+  border: none;
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+}
+
+
+.breadcrumb {
+
+  display: flex;
+  
+}
+.breadcrumb-nav {
+  margin: 0;
+  margin-right: 10px;
+  
+}
+.breadcrumb-link {
+  color: #956d4e;
+  font-size: 23px;
+
+}
