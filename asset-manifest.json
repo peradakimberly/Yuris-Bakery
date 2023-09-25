@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/yuris-bakery/static/css/main.fb9d3deb.css",
-    "main.js": "/yuris-bakery/static/js/main.6965c509.js",
+    "main.js": "/yuris-bakery/static/js/main.182af7a1.js",
     "static/media/melonbread.jpg": "/yuris-bakery/static/media/melonbread.5cc9968485a81b308327.jpg",
     "static/media/bananapie.jpg": "/yuris-bakery/static/media/bananapie.0ba52bda1bc148f544ee.jpg",
     "static/media/fondantcake.jpg": "/yuris-bakery/static/media/fondantcake.1cadee58fd9b2551e5a7.jpg",
@@ -23,10 +23,10 @@
     "static/media/scb.ttf": "/yuris-bakery/static/media/scb.b3e655cf618072e70d34.ttf",
     "index.html": "/yuris-bakery/index.html",
     "main.fb9d3deb.css.map": "/yuris-bakery/static/css/main.fb9d3deb.css.map",
-    "main.6965c509.js.map": "/yuris-bakery/static/js/main.6965c509.js.map"
+    "main.182af7a1.js.map": "/yuris-bakery/static/js/main.182af7a1.js.map"
   },
   "entrypoints": [
     "static/css/main.fb9d3deb.css",
-    "static/js/main.6965c509.js"
+    "static/js/main.182af7a1.js"
   ]
 }
